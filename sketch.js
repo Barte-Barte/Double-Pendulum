@@ -17,7 +17,7 @@ let cx, cy;
 let buffer;
 
 function setup() {
-  createCanvas(screen.width,screen.height-112)
+  createCanvas(screen.width,screen.height)
   
   //Issue with wrong rendering on a retina Mac. See issue: https://github.com/CodingTrain/website/issues/574
   pixelDensity(1);
