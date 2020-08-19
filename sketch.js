@@ -66,7 +66,7 @@ function draw() {
   ellipse(x1, y1, m1, m1);
 
   line(x1, y1, x2, y2);
-  fill(0);
+  fill(255);
   ellipse(x2, y2, m2, m2);
 
   a1_v += a1_a;
